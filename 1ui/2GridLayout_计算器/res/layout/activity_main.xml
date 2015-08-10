@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:rowCount="6"
+    android:columnCount="4"
+    android:id="@+id/root"
+    >
+
+
+    <!-- 横跨4列的文本框 -->
+    <TextView
+       android:id="@+id/textView1"
+	   android:layout_width="fill_parent"
+	   android:layout_height="wrap_content" 
+	   android:layout_columnSpan="4"
+	   android:textSize="50sp"
+	   android:layout_marginLeft="4px"
+	   android:layout_marginRight="4px"
+	   android:padding="5px"
+   
+        android:layout_gravity="right"
+        android:background="#eee"
+        android:textColor="#000"
+        android:text="0" />
+    
+
+
+    <!-- 横跨4列的按钮 -->
+    <Button
+        android:id="@+id/button1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:layout_columnSpan="4"
+        android:text="清除" />
+
+</GridLayout>

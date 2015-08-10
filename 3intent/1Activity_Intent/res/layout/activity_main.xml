@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:onClick="click1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转至打电话activity" />
+    <Button
+        android:onClick="click2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示跳转至拨号器" />
+    <Button
+        android:onClick="click3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="隐式跳转至拨号器" />
+    <Button
+        android:onClick="click4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示跳转至secondActivity" />
+    <Button
+        android:onClick="click5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="隐式跳转至secondActivity" />
+    <Button
+        android:onClick="click6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显式跳转至浏览器" />
+    <Button
+        android:onClick="click7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="隐式跳转至浏览器" />
+
+</LinearLayout>
